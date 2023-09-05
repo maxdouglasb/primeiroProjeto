@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>1 Projeto</title>
+</head>
+
+<body>
+    <span id="menuPrincipal" class="material-icons" onclick="clickMenu()">menu</span>
+    <header id="menu">
+        <a class="link-header" href=" ">HOME</a>
+        <a class="link-header" href=" ">ABOUT</a>
+        <a class="link-header" href=" ">PRODUCT</a>
+        <a class="link-header" href=" ">SERVICE</a>
+        <a class="link-header" href=" ">CONTATO</a>
+        <button class="button-header">LOGIN</button>
+
+    </header>
+
+    <main>
+
+        <img class="mainimage " src="./assats/imgHome.png " alt="imagem inicial ">
+        <section class="menu">
+            <h1>WE CARE</h1>
+            <h2>About Your Pet</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero provident veritatis adipisci rerum unde voluptate recusandae esse temporibus incidunt! Magni iste dolorum commodi itaque eos fugiat voluptatibus vero suscipit delectus?</p>
+            <button class="button-main">Explore</button>
+        </section>
+    </main>
+
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+
+
+</body>
+
+
+</html>
